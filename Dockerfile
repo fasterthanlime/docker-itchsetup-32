@@ -7,3 +7,4 @@ RUN apt-get install --quiet --yes libgtk-3-dev
 RUN apt-get install --quiet --yes build-essential
 RUN apt-get install --quiet --yes rsync
 RUN apt-get install --quiet --yes git
+RUN apt-get install --quiet --yes upx-ucl
