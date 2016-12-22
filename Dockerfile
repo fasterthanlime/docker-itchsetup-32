@@ -5,3 +5,4 @@ RUN curl -L https://storage.googleapis.com/golang/go1.7.4.linux-386.tar.gz | tar
 RUN apt-get install --quiet --yes libgtk-3-dev
 RUN apt-get install --quiet --yes build-essential
 RUN apt-get install --quiet --yes rsync
+RUN apt-get install --quiet --yes git
